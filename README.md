@@ -2,7 +2,7 @@
 
 Chris Rockwell and David F. Fouhey
 
-**[[Project Website](https://crockwell.github.io/partial_humans/)] [[Paper](TBD)] [[Supplemental](TBD)]**
+**[[Project Website](https://crockwell.github.io/partial_humans/)] [[Paper](https://crockwell.github.io/partial_humans/data/2820.pdf)] [[Supplemental](https://crockwell.github.io/partial_humans/data/2820-supp.pdf)]**
 
 ![Teaser Image](teaser.png)
 **Fig. 1:** We present a simple but highly effective framework for adapting human pose estimation methods to highly truncated settings that requires no additional pose annotation. We evaluate the approach on HMR and CMR by annotating four Internet video test sets: VLOG (top-left, top-middle), Cross-Task (top-right, bottom-left), YouCookII (bottom-middle), and Instructions (bottom-right).
