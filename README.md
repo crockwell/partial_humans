@@ -18,9 +18,9 @@ We do not hold the copyright to these videos, but for ease of replication, we ar
 making available our local copy of the data for non-commercial 
 research purposes only. Click here to download our copies of:
 
-* [VLOG](http://megaflop.eecs.umich.edu:8888/~cnris/partial_humans_website/crockwell.github.io/annotated_test_set/vlog/agree.html)
-* [Cross-Task](http://megaflop.eecs.umich.edu:8888/~cnris/partial_humans_website/crockwell.github.io/annotated_test_set/cross_task/agree.html)
-* [Instructions](http://megaflop.eecs.umich.edu:8888/~cnris/partial_humans_website/crockwell.github.io/annotated_test_set/instructions/agree.html)
+* [VLOG](https://crockwell.github.io/partial_humans/annotated_test_set/vlog/agree.html)
+* [Cross-Task](https://crockwell.github.io/partial_humans/annotated_test_set/cross_task/agree.html)
+* [Instructions](https://crockwell.github.io/partial_humans/annotated_test_set/instructions/agree.html)
 
 Please fill out this [YouCookII Google Form](https://docs.google.com/forms/d/e/1FAIpQLScfuMCvHvsFRuW0pdYeS0APYm4VOakjo1IF9LJmwdiaiNmiTw/viewform) so we can share the download.
 
