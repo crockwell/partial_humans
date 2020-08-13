@@ -35,7 +35,7 @@ python demo.py --checkpoint=data/models/ours/2020_02_29-18_30_01.pt --img demo/i
 - Place custom images in `CUSTOM_ROOT/images`, and image paths in `CUSTOM_ROOT/images.txt`. In `config.py`, set `CUSTOM_ROOT`.
 - Run `preprocess_custom.py`
 
-To run, use `run_custom.sh`, changing `NUM_IMGS` to number of images on which you want to run model.
+To run, use `run_custom.sh`, changing `NUM_IMGS` to number of images on which you want to run model. To avoid confusing off-by-one bugs, make sure images.txt does not have a blank line at the end.
 
 ### Evaluation
 This requires downloading the annotated test set, detailed in the parent [README](https://github.com/crockwell/partial_humans/blob/master/README.md).
