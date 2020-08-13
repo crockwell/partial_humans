@@ -2,7 +2,7 @@
 LP=data/models/ours/2020_02_29-18_30_01.pt
 
 # If true, saves predicted images
-SAVE_IMGS=True
+SAVE_IMGS=False
 
 # If true and SAVE_IMGS=True, predictions are overlayed on white background.
 # If false and SAVE_IMGS=True, predictions are overlayed on image.
