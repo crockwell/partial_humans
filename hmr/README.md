@@ -11,6 +11,9 @@ conda activate hmr
 pip install numpy
 pip install -r requirements.txt
 ```
+
+- If you have trouble installing all requirements at once, going one-by-one may help. We sometimes noticed an error message print "failed building wheel for opendr" while installing, but later in the same installation, opendr was able to install properly.
+
 #### Install TensorFlow
 With GPU:
 ```
