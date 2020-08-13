@@ -29,8 +29,8 @@ wget http://megaflop.eecs.umich.edu:8888/~cnris/partial_humans_website/crockwell
 2. In the models folder, download mean SMPL parameters used for initialization (we use same as original work). These are compressed along with the original HMR model, which is therefore available for ablation. 
 ```
 cd models
-wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/neutral_smpl_mean_params.h5
-wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz && mv models/neutral_smpl_with_cocoplus_reg.pkl . && mv models kanazawa
+wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/neutral_smpl_mean_params.h5 --no-check-certificate
+wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz --no-check-certificate && tar -xf models.tar.gz && mv models/neutral_smpl_with_cocoplus_reg.pkl . && mv models kanazawa
 ```
 *The SMPL model falls under the SMPLify license. If you find the model useful for your research, please follow the [corresponding citing instructions](https://github.com/classner/up/blob/master/3dfit/README.md)*
 
