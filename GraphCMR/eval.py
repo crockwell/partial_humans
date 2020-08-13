@@ -112,7 +112,7 @@ def run_evaluation(model, args, dataset,
     all_kps = {}
 
     # Iterate over the entire dataset
-    for step, batch in enumerate(tqdm(data_loader, desc='Eval', total=len(data_loader))):
+    for step, batch in enumerate(tqdm(data_loader, desc='Eval', total=args.num_imgs)):
         
         # Get ground truth annotations from the batch
         images = batch['img'].to(device)
