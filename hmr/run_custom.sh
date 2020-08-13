@@ -2,7 +2,7 @@
 LP=models/ours/model.ckpt-694216
 
 # If on a multi-GPU machine, can set os.env['']
-GPU=5
+GPU=0
 
 # Directory in which data is located
 CUSTOM_DIR=
