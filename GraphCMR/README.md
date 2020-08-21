@@ -22,7 +22,7 @@ wget https://github.com/classner/up/raw/master/models/3D/basicModel_neutral_lbs_
 *This model falls under the SMPLify license. If you find this model useful for your research, please follow the [corresponding citing instructions](https://github.com/classner/up/blob/master/3dfit/README.md)*
 2. Download our pretrained models
 ```
-cd data && wget http://fouheylab.eecs.umich.edu:8888/~cnris/partial_humans/cmr/models.tar.gz && tar -xf models.tar.gz
+cd data && wget http://fouheylab.eecs.umich.edu:/~cnris/partial_humans/cmr/models.tar.gz && tar -xf models.tar.gz
 ```
 
 ### Running the Demo
