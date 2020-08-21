@@ -27,7 +27,7 @@ pip install tensorflow==1.14.0
 #### Download required models
 1. Download our pretrained models, extract into `models`
 ```
-wget http://fouheylab.eecs.umich.edu:8888/~cnris/partial_humans/hmr/models.tar.gz && tar -xf models.tar.gz
+wget http://fouheylab.eecs.umich.edu:/~cnris/partial_humans/hmr/models.tar.gz && tar -xf models.tar.gz
 ```
 2. In the models folder, download mean SMPL parameters used for initialization (we use same as original work). These are compressed along with the original HMR model, which is therefore available for ablation. 
 ```
