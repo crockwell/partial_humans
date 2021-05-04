@@ -37,7 +37,7 @@ For each dataset, three sets will be extracted:
 Within each set (`all`, `uncropped_keypoint`, `cropped_keypoint`), a text file `images.txt` defines list of image names, which exist in `images` subfolder. They have been extracted to tf_records for use with HMR in `tf_records` folder. `keypoints.pkl` contains a mapping from each line in the `images.txt` file to annotations. More details are available in the detailed comment in `utils/calculate_pck.py`.
 
 ### Evaluation
-For PCK calculation, HMR and CMR models call `utils/calculate_pck.py`. This code can also be used with arbitrary models. The function has a detailed comment on proper inputs. More details of evaluation, cropping, and dataset statistics are available in [Supplemental](https://crockwell.github.io/partial_humans/data/2820-supp.pdf). Briefly, keypoint accuracy is calculated as the average keypoint accuracy per image. Accuracy is evaluated on `cropped` and `uncropped` keypoint sets. Human judgments evaluate predictions on `all` images.
+For PCK calculation, HMR and CMR models call `utils/calculate_pck.py`. This code can also be used with arbitrary models. The function has a detailed comment on proper inputs. More details of evaluation, cropping, and dataset statistics are available in [Supplemental](https://crockwell.github.io/partial_humans/data/paper-supp.pdf). Briefly, keypoint accuracy is calculated as the average keypoint accuracy per image. Accuracy is evaluated on `cropped` and `uncropped` keypoint sets. Human judgments evaluate predictions on `all` images.
 
 ### Citation
 If you use this code for your research, please consider citing:
